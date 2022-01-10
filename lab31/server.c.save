@@ -1,0 +1,17 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <ctype.h>
+#include <string.h>
+
+char* socket_path = "./socket";
+
+int main(){
+	int sock;
+	struct sockaddr_un addr;
+	
+	exit(0);
+}
